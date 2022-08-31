@@ -1,6 +1,3 @@
-// ---------------------------
-// 1. elementsインスタンスを用意する
-// ---------------------------
 var stripe = Stripe(
 	"pk_test_51LceESJtgs2b2PsU5KBhUxp00tm8gZVh9pvZT4YQzimPQ3wjfuDzdQ2gYQLOtWf0nVbGzIssontbyKZAxToMjl4V00OAIFALvt"
 );
@@ -73,7 +70,8 @@ submitButton.addEventListener("click", function (event) {
 				order.paymentMethodId = result.paymentMethod.id;
 
 				// サーバサイドへ決済情報を渡して結果をハンドリングする
-				fetch("http://localhost:3000/api/payment", {
+				// fetch("http://localhost:3000/api/payment", {
+				fetch("https://stripe-testapp-settlement.herokuapp.com/api/payment", {
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
 					body: JSON.stringify(order),
