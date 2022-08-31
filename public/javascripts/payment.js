@@ -1,5 +1,3 @@
-// https://stripe.com/docs/payments/accept-a-payment#web-submit-payment
-
 // ---------------------------
 // 1. elementsインスタンスを用意する
 // ---------------------------
