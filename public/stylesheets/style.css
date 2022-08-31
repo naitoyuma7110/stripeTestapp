@@ -1,14 +1,12 @@
-/* 
- * Stripeのinput要素や注文確定ボタン、戻るボタンなどを包括する一番大きなコンテナ要素。
- */
 .payment-form-container {
 	margin-top: 100px !important;
 }
 
 .payment-form-container h1 {
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 0;
 	text-align: center;
+	font-size: 18px;
 }
 
 /* 
