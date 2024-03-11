@@ -1,3 +1,3 @@
-## カード決算Saas、StripeのAPI利用
+## カード決算Saas Stripeのテスト
 
 https://stripe.com/jp
